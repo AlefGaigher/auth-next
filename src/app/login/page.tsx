@@ -1,10 +1,10 @@
 'use client'
 import { signIn } from 'next-auth/react'
-import { useSearchParams } from 'next/navigation';
+//import { useSearchParams } from 'next/navigation';
 
 export default function Login(){
-    const searchParams = useSearchParams();
-    const error = searchParams.get('error');
+    //const searchParams = useSearchParams();
+    //const error = searchParams.get('error');
 
     async function handleLogin(e: React.FormEvent<HTMLFormElement>){
         e.preventDefault();
@@ -26,9 +26,9 @@ export default function Login(){
             <div className="max-w-md w-full bg-white p-8 rounded-lg shadow-md">
                 <h2 className="text-3xl font-extrabold text-center text-gray-900 mb-6">Entrar em sua conta</h2>
                 
-                {error === "CredentialsSignin" && (
+                {/* {error === "CredentialsSignin" && (
                     <div className="text-red-600 mb-4 text-center">Credencial Inválida</div>
-                )}
+                )} */}
 
                 <form className="space-y-4" onSubmit={handleLogin}>
                     <input type="hidden" name="remember" value="true" />
