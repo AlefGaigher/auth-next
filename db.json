@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alef",
+      "email": "alefgaigher@hotmail.com",
+      "senha": "123456"
+    },
+    {
+      "id": "2",
+      "name": "Dani",
+      "email": "Danielly Dutra",
+      "senha": "123456"
+    }
+  ]
+}
