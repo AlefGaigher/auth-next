@@ -1,3 +1,5 @@
+///Temporariamente desabilitado devido a implementação do firebase
+
 import axios from 'axios';
 
 const api = axios.create({

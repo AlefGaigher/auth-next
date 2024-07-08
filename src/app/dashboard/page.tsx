@@ -1,3 +1,4 @@
+
 import LogoutButtton from "@/components/LogoutButton";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
@@ -9,7 +10,7 @@ export default async function Dashboard () {
     if(!session){
         redirect("/");
     }
-
+    
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="py-12">

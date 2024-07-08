@@ -1,16 +1,17 @@
+
 {
   "users": [
     {
       "id": "1",
       "name": "Alef",
       "email": "alefgaigher@hotmail.com",
-      "senha": "123456"
+      "senha": "teste1"
     },
     {
       "id": "2",
       "name": "Dani",
       "email": "daniellydutra@hotmail.com",
-      "senha": "123456"
+      "senha": "teste2"
     }
   ]
 }
