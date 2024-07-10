@@ -51,9 +51,9 @@ const handler = NextAuth({
           console.error("Firebase sign-in error:", error);
           return null;
         }
-      },
-      
+      },      
     }),
+    
   ],
 });
 
